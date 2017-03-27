@@ -1,8 +1,174 @@
+.nav-tabs {
+  border-bottom: 0px !important; }
+
+ul {
+  padding-left: 22px;
+  margin-top: 8px; }
+
+h4 {
+  font-weight: 600;
+  margin-bottom: 0px;
+  text-transform: uppercase; }
+
+li {
+  padding: 5px 0; }
+
 html {
   overflow-x: hidden; }
 
 .slider {
   height: 621px; }
+
+.nav-tabs {
+  margin-top: -115px; }
+
+.area_text_tab_b {
+  margin-top: 14px; }
+
+.smol_tabs {
+  margin-top: 100px; }
+
+.panel-group .panel {
+  margin: 20px 0px; }
+
+.title_text-tab2 {
+  padding: 18px 0px 0px 18px;
+  width: 461px;
+  height: 64px; }
+  .title_text-tab2_text {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white; }
+  .title_text-tab2_1 {
+    background-image: url(../imagesFromPsd/tabs_m/1.png); }
+  .title_text-tab2_2 {
+    background-image: url(../imagesFromPsd/tabs_m/2.png); }
+  .title_text-tab2_3 {
+    background-image: url(../imagesFromPsd/tabs_m/3.png); }
+  .title_text-tab2_4 {
+    background-image: url(../imagesFromPsd/tabs_m/4.png); }
+
+.tab_btn_b.active > .arrow-bot-open {
+  display: block !important; }
+
+.title_text-tab {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 35px; }
+
+.title_text-tab:after {
+  margin-top: 20px;
+  content: "";
+  display: block;
+  height: 6px;
+  width: 92px;
+  background-color: #ea1168; }
+
+.text-tab {
+  font-size: 14px;
+  padding-left: 0px !important;
+  padding-top: 7px; }
+
+.tabs-btn {
+  margin-top: 30px; }
+
+@keyframes bouncing {
+  100% {
+    bottom: 0; }
+  0% {
+    bottom: 18px; } }
+.tab_btn_b.active {
+  animation: bouncing 0.5s cubic-bezier(0.76, 0.29, 0.07, 0.7) 0s alternate both;
+  display: block;
+  position: relative;
+  vertical-align: top;
+  margin-top: 18px; }
+
+.tab_btn_b.active > .tab_b_1 {
+  background-image: url(../imagesFromPsd/tabs/tab1-active.png) !important; }
+
+.tab_btn_b.active > .tab_b_1 > .title_tab_1 {
+  display: none; }
+
+.tab_btn_b.active > .tab_b_1 > .area_text_tab_b_1 {
+  display: none; }
+
+.tab_btn_b.active > .arrow-bot-close {
+  display: none !important; }
+
+.tab_btn_b.active > .arrow-bot-open {
+  display: block !important; }
+
+.arrow-bot-open {
+  display: none; }
+
+.tab_btn_b.active > .tab_b_2 {
+  background-image: url(../imagesFromPsd/tabs/tab2-active.png) !important; }
+
+.tab_btn_b.active > .tab_b_2 > .title_tab_2 {
+  display: none; }
+
+.tab_btn_b.active > .tab_b_2 > .area_text_tab_b_2 {
+  display: none; }
+
+.tab_btn_b.active > .tab_b_3 {
+  background-image: url(../imagesFromPsd/tabs/tab3-active.png) !important; }
+
+.tab_btn_b.active > .tab_b_3 > .title_tab_3 {
+  display: none; }
+
+.tab_btn_b.active > .tab_b_3 > .area_text_tab_b_3 {
+  display: none; }
+
+.tab_btn_b.active > .tab_b_4 {
+  background-image: url(../imagesFromPsd/tabs/tab4-active.png) !important; }
+
+.tab_btn_b.active > .tab_b_4 > .title_tab_4 {
+  display: none; }
+
+.tab_btn_b.active > .tab_b_4 > .area_text_tab_b_4 {
+  display: none; }
+
+.arrow-bot {
+  margin-top: -10px; }
+
+.b_tab_text {
+  text-align: center;
+  font-weight: 200;
+  color: white;
+  line-height: 16px; }
+
+.title_tab {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  border-bottom: 1px solid #a5a7ab;
+  height: 83px;
+  font-size: 20px; }
+  .title_tab span {
+    vertical-align: middle; }
+  .title_tab_1 {
+    padding-top: 11px; }
+  .title_tab_2 {
+    padding-top: 11px; }
+  .title_tab_3 {
+    padding-top: 11px; }
+  .title_tab_4 {
+    padding-top: 27px; }
+
+.tab_b {
+  display: block;
+  height: 229px;
+  background-position: center; }
+  .tab_b_1 {
+    background-image: url(../imagesFromPsd/tabs/tab1.png); }
+  .tab_b_2 {
+    background-image: url(../imagesFromPsd/tabs/tab2.png); }
+  .tab_b_3 {
+    background-image: url(../imagesFromPsd/tabs/tab3.png); }
+  .tab_b_4 {
+    background-image: url(../imagesFromPsd/tabs/tab4.png); }
 
 .item {
   background: #333;
@@ -171,8 +337,14 @@ textarea {
     background-image: linear-gradient(to right, rgba(244, 245, 246, 0), #f4f5f6, #f4f5f6, #f4f5f6, #f4f5f6, rgba(244, 245, 246, 0.5), rgba(244, 245, 246, 0)); } }
 @media screen and (min-width: 991px) {
   .icons_mb {
+    display: none; }
+
+  .smol_tabs {
     display: none; } }
 @media screen and (max-width: 991px) {
+  .big_tabs {
+    display: none; }
+
   .logo {
     position: relative !important; }
 
