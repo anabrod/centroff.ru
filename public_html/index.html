@@ -7,9 +7,13 @@ and open the template in the editor.
 <html>
     <head>
          <script src="js/jquery-3.2.0.min.js"></script>
+         <script src="js/bootstrap.min.js"></script>
+  <script src="js/js.js"></script>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     </head>
     <body>
         <div id="header">
@@ -17,32 +21,36 @@ and open the template in the editor.
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="header1 text-right" > 
-                            
+                        <div class="header1 text-right" >
+
                                 <div class="info font14l inner">
                                     <span class="before"></span>
-                                    <img src="imagesFromPsd/icons/tele.png" alt=""><span class="infoInner">8 (495) 585 90 61</span></div>
-                                
+                                    <img class="icons_ld" src="imagesFromPsd/icons/tele.png" alt=""><img class="icons_mb" src="imagesFromPsd/icons/tele2.png" alt=""><span class="infoInner">8 (495) 585 90 61</span></div>
+
                             <div class="info font13l inner">
                                 <span class="before"></span>
-                                <img src="imagesFromPsd/icons/mail.png" alt=""><span class="infoInner">5010845@mail.ru</span></div>
-                         
+                                <img class="icons_ld" src="imagesFromPsd/icons/mail.png" alt=""><img  class="icons_mb" src="imagesFromPsd/icons/mail2.png" alt=""><span class="infoInner">5010845@mail.ru</span></div>
+
                         </div>
                     </div>
                 </div>
+
+
             </div>
             </div>
                 <div id="header2">
             <div class="container">
                 <div class="row">
-                    <div class="header2">
-                        <div class="col-md-3 text-left">
-                            
-                            <div class="logo">
+                    <div class="header2 ">
+                        <div class="col-md-3 col-xs-12 text-left">
+
+
+                            <div class="logo centrovka_logo">
                             <img src="imagesFromPsd/logo.png" alt="">
                             </div>
+
                         </div>
-                        <div class="col-md-9 text-right">
+                        <div class="col-md-9 col-xs-12 text-right centrovka menu_mb">
                                     <div class="header2 menu font14r inner">
                                     <span class="before"></span>
                                     <span class="infoInner"><a>О КОМПАНИИ</a></span></div>
@@ -64,30 +72,182 @@ and open the template in the editor.
                                     <div class="header2 menu font14r inner">
                                     <span class="before"></span>
                                     <span class="infoInner"><a>КОНТАКТЫ</a></span></div>
-                                    
+
                         </div>
-               
+
             </div>
                 </div>
             </div>
             </div>
-               
-          
+
+
         </div>
+
+ <div class="slider" >
+     <div style="position:relative">
+         <div class="container" style="position: relative">
+         <div class="row">
+             <div class="col-md-7 col-xs-12">
+                 <div class="slider-text centrovka">КВАЛИФИЦИРОВАННФЯ<br>ПОМОЩЬ СПЕЦИАЛИСТОВ</div>
+                 <div class="slider-btn-out centrovka"><a class="slider-btn">ОБРАТНЫЙ ЗВОНОК</a></div>
+
+             </div>
+                <div class="col-md-5 col-xs-12 centrovka" style="text-align: right;">
+                    <div class="form centrovka">
+
+                        <div >
+                        <div class="form__title">КОНСУЛЬТАЦИЯ ПО ВАШЕЙ СДЕЛКЕ</div>
+                        </div>
+                        <div class="form-input">
+                        <input type="text" name="name" value="Ваше имя">
+                        </div>
+                        <div  class="form-input">
+                        <input type="text" name="contact" value="E-mail или телефон">
+                        </div >
+                        <div class="form-input" >
+                        <textarea name="comment">Что вас интересует?</textarea>
+                        </div>
+                        <div class="slider-btn-out2 form-btn"><a class="slider-btn">ОТПРАВИТЬ</a></div>
+
+                    </div>
+
+                </div>
+         </div>
+              <a class="arrow-left " href="#myCarousel" data-slide="prev">
+                 <img src="imagesFromPsd/icons/arrow-left.png" alt="">
+              </a>
+
+              <a class="arrow-right " href="#myCarousel" data-slide="next">
+                <img src="imagesFromPsd/icons/arrow-right.png" alt="">
+              </a>
+
+         </div>
         
-        <div id="slider">
-            
-            qwe
-            
-        </div>
+     </div>
+            <div id="myCarousel" class="carousel slide slider-castom" data-interval="3000" data-ride="carousel">
+
+              <div class="carousel-inner">
+
+                <div class="active item">
+                  <div class="slider-img" style=" background-image: url(imagesFromPsd/slider.png);">
+                   </div>
+                </div>
+
+                <div class="item">
+                 <div class="slider-img" style=" background-image: url(imagesFromPsd/slider.png);">
+                   </div>
+                </div>
+
+                <div  class="item">
+                   <div class="slider-img" style=" background-image: url(imagesFromPsd/slider.png);">
+                   </div>
+                </div>
+
+              </div>
+
+
+            </div>
+
+</div>
+
+
+        <div class="clearfix"> </div>
+        
+
+         <ul class="nav nav-tabs">
+    <li class="active"><a href="#home">Home</a></li>
+    <li><a href="#menu1">Menu 1</a></li>
+    <li><a href="#menu2">Menu 2</a></li>
+    <li><a href="#menu3">Menu 3</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+
         
         
+        
+        
+        
+        
+        
+        
+        <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                Пункт Группы Свертывания #1
+              </a>
+            </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                Пункт Группы Свертывания #2
+              </a>
+            </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                Пункт Группы Свертывания #3
+              </a>
+            </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+    $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+    });
+});
+</script>
+       
+ 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
         <link rel="stylesheet" href="css/template-styles.css">
+
        
-        <script src="js/bootstrap.min.js"></script>
-        
+
     </body>
-    
+
 </html>
