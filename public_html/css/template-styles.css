@@ -19,6 +19,72 @@ html {
 .slider {
   height: 621px; }
 
+.partnery_title {
+  font-size: 42px;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  margin-top: 56px; }
+.partnery_title_line {
+  margin-top: 10px;
+  display: block;
+  height: 6px;
+  text-align: center; }
+.partnery_title_line2 {
+  width: 141px;
+  display: inline-block;
+  height: 6px;
+  background-color: #ea1168; }
+
+.o-kompanii {
+  background-image: url(../imagesFromPsd/o-kompanii/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin-top: 66px; }
+  .o-kompanii_title {
+    font-size: 42px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-top: 56px; }
+  .o-kompanii_icons {
+    margin-top: 40px; }
+  .o-kompanii_title_line {
+    margin-top: 10px;
+    display: block;
+    height: 6px;
+    text-align: center; }
+  .o-kompanii_title_line2 {
+    width: 141px;
+    display: inline-block;
+    height: 6px;
+    background-color: #ea1168; }
+  .o-kompanii_text {
+    margin-top: 43px;
+    text-align: center;
+    display: block; }
+  .o-kompanii_iconstext {
+    color: white;
+    margin-top: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center; }
+  .o-kompanii_inner {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    color: white;
+    display: inline-block;
+    width: 79%; }
+
 .nav-tabs {
   margin-top: -115px; }
 
@@ -31,7 +97,12 @@ html {
 .panel-group .panel {
   margin: 20px 0px; }
 
+.title_text-tab2 > img {
+  position: absolute;
+  right: -10px; }
+
 .title_text-tab2 {
+  position: relative;
   padding: 18px 0px 0px 18px;
   width: 461px;
   height: 64px; }
@@ -97,8 +168,35 @@ html {
 .tab_btn_b.active > .arrow-bot-close {
   display: none !important; }
 
-.tab_btn_b.active > .arrow-bot-open {
-  display: block !important; }
+a.active > .title_text-tab2_1 {
+  background-image: url(../imagesFromPsd/tabs_m/1-active.png) !important; }
+
+a.active > .title_text-tab2_2 {
+  background-image: url(../imagesFromPsd/tabs_m/2-active.png) !important; }
+
+a.active > .title_text-tab2_3 {
+  background-image: url(../imagesFromPsd/tabs_m/3-active.png) !important; }
+
+a.active > .title_text-tab2_4 {
+  background-image: url(../imagesFromPsd/tabs_m/4-active.png) !important; }
+
+a.active > .title_text-tab2 > .title_text-tab2_text_1 {
+  display: none !important; }
+
+a.active > .title_text-tab2 > .title_text-tab2_text_2 {
+  display: none !important; }
+
+a.active > .title_text-tab2 > .title_text-tab2_text_3 {
+  display: none !important; }
+
+a.active > .title_text-tab2 > .title_text-tab2_text_4 {
+  display: none !important; }
+
+a.active > .title_text-tab2 > .arrow-bot-open {
+  display: inline-block !important; }
+
+.panel > .active > .title_text-tab2 > .arrow-bot-close {
+  display: none !important; }
 
 .arrow-bot-open {
   display: none; }
@@ -316,6 +414,9 @@ textarea {
     font-weight: 400;
     margin-top: 33px; }
 
+.invis {
+  display: none; }
+
 .arrow-right {
   top: 300px;
   right: -190px;
@@ -347,6 +448,10 @@ textarea {
 
   .logo {
     position: relative !important; }
+
+  .invis {
+    display: block !important;
+    height: 30px; }
 
   .img-fluid {
     height: 665px !important; }
